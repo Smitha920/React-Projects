@@ -13,19 +13,22 @@ export const App = () => {
             <button>Time: All</button>
             <button>Status: All</button>
         <div>
-        <div>
-            <h3>User Interface </h3>
-            <p>Tommorrow</p>
-            <p>Incomming</p>
-            <ChevronRight />
-        </div>
-        <p>Showcasing new design elements and styles.</p>
-        <div>
-          <img></img>
-          <img></img>
-          <img></img>
-          <p>Collaborate with <span>Miguel, Jhon, Hane</span></p>
-        </div>
+          <div id="msg">
+            <div className="UI">
+              <p>User Interface </p>
+              <span>Tomorrow</span>
+              <span>Incoming</span>
+              <ChevronRight />
+            </div>
+            <p>Showcasing new design elements and styles.</p>
+            <div>
+              <img></img>
+              <img></img>
+              <img></img>
+              <p>Collaborate with <span>Miguel, Jhon, Hane</span></p>
+            </div>
+          </div>
+
       </div>
       </div>
     </div>
