@@ -81,7 +81,14 @@ body {
   padding: 7px;
   border-radius: 10px;
   border: none;
+  color: white;
+  font-size: 20px;
   background: linear-gradient(#e6d6d6b5, #00000075);
+}
+.bottom button:hover {
+  width: 252px;
+  height: 52px;
+  background: linear-gradient(#f0ddddb5, #35343475);
 }
 .bottom p {
   font-size: 15px;
