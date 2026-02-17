@@ -1,11 +1,11 @@
 import { Navbar } from "./Navbar"
 import Page1Content from "./Page1Content";
 
-export const Section1 = () => {
+export const Section1 = (props) => {
   return (
     <div className='h-screen w-full'>
     <Navbar />    
-    <Page1Content />
+    <Page1Content users = {props.users} />
     </div>
   )
 }
