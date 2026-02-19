@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+  color: white;
+}
+button {
+  padding: 10px 20px;
+  margin: 70px 80px;
+  background-color: gainsboro;
+  border-radius: 5px;
+  font-size: 30px;
+}
+h1 {
+  padding: 50px;
+  width: fit-content;
+  background-color: rgb(143, 139, 139);
+  border-radius: 10px;
+  margin: auto;
+  font-size: 70px;
+}
